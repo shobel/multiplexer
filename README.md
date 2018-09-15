@@ -1,12 +1,12 @@
 # multiplexer
 
-Compilation steps:
+#### Compilation steps
 g++ mux.cpp -o mux
 
-Running steps:
+#### Running steps
 ./mux input.txt
 
-Additional Info:
+#### Additional Info
 A brief summary of what this program does is it reads the source information from a file and stores information 
 about each source. It calculates the transmission rate of the mux based on the combined average transmission rates
 of the sources. Then, based on the start/end time of each datablock in the source, the program simulates the 
